@@ -1,0 +1,18 @@
+@media only screen and (max-width: 399px) {
+    .science {
+        position: absolute;
+        top: 116px;
+        font-size: 50px;
+    }
+    .motto {
+        font-size: 23px;
+    }
+    .sumbox {
+        height: 90px;
+        width: 50%;
+    }
+    div h2,
+    p {
+        font-size: 10px;
+    }
+}

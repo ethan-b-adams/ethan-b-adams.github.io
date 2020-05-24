@@ -1,0 +1,26 @@
+/* 64em is also 1028px when basefont is 16px */
+
+@media only screen and (min-width: 64rem) {
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    .artimage {
+        position: relative;
+        left: 31%;
+    }
+    .summary {
+        max-width: 60%;
+        max-height: 40%;
+        margin-left: 250px;
+    }
+    .sumbox {
+        position: absolute;
+        left: 250px;
+    }
+}
+
+
+/*end large */
